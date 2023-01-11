@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: auto;
+    background-color: #1F2937;
+    justify-content: space-evenly;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: row;
+    height: 350px;
+    width: auto;
+    background-color: #1F2937;
+}
+
+.random-info-section {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: auto;
+}
+
+.testimonial-section {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: auto; 
+    background-color: #E5E7EB;
+}
+
+.cta-section {
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    width: auto;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    width: auto;
+    background-color: #1F2937;
+}
