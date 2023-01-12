@@ -115,16 +115,34 @@
     border-radius: 15px;
 }
 
-/* */
+/* Testimonial Section*/
 
 .testimonial-section {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 350px;
     width: auto; 
     background-color: #E5E7EB;
 }
 
+.testi-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto; 
+}
+
+.quote-author {
+    align-self: flex-end;
+}
+
+
+
+/* Call to action Section */
 .cta-section {
     display: flex;
     flex-direction: row;
@@ -132,6 +150,8 @@
     width: auto;
 }
 
+
+/* Footer Section */
 .footer-container {
     display: flex;
     flex-direction: row;
